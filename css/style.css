@@ -1,0 +1,263 @@
+body {
+    min-width: 1200px;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #000000;
+    font-weight: bold;
+    font-family: "Roboto", "Arial", sans-serif;
+    background-color: white;
+}
+
+.heading-1 {
+    font-size: 55px;
+    line-height: 1em;
+    color: #000000;
+    font-weight: bold;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.heading-2 {
+    font-size: 45px;
+    line-height: 1em;
+    color: #000000;
+    font-weight: bold;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.main-header {
+    background-color: #eeeeee;
+}
+
+.site-navigation,
+.cart,
+.service-list,
+.about-us-features,
+.trusted-by-list,
+.social,
+.site-navigation,
+.user-navigation,
+.filter,
+.sort,
+.social,
+.catalog-list,
+.pagination-list {
+	list-style: none;
+}
+
+.navigation a,
+.cart a {
+	display: inline-block;
+	text-transform: uppercase;
+	color: #000;
+	line-height: 30px;
+	font-weight: 500;
+}
+
+.site-navigation a:hover,
+.cart a:hover {
+	color: #fb565a;	
+}
+
+.site-navigation a:active,
+.cart a:active {
+	opacity: 0.3;
+}
+
+.main-header-logo:hover {
+	opacity: 0.8;
+}
+
+.main-header-logo:active {
+	opacity: 0.3;
+}
+
+.site-navigation .current {
+	border-bottom: 3px solid #fb565a;
+}
+
+.btn {
+	line-height: 18px;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #fff;
+	display: inline-block;
+	background-color: #fb565a;
+}
+
+.slide-title {
+	font-size: 45px;
+	line-height: 45px;
+	color: #000;
+}
+
+.know-more-btn {
+	display: inline-block;
+	width: 240px;
+	height: 50px;
+	background-color: #fb565a;
+	text-align: center;
+}
+
+.know-more-btn:hover {
+	background-color: #e74246;
+}
+
+.know-more-btn:active {
+	background-color: #d7373b;
+	color: rgba (255, 255, 255, 0.3);
+}
+
+.slide-1 {
+	background: url(../img/slide1.png);
+}
+
+.slide-2 {
+	background: url("../img/slide2.png") no-repeat;
+}
+
+.slide-3 {
+	background: url("../img/slide3.png") no-repeat;
+}
+
+.service-item-title {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #000;
+}
+
+.service-btn {
+	display: inline-block;
+	background-color: #fb565a;
+	width: 160px;
+	height: 50px;
+	text-align: center;
+}
+
+
+.service-btn:hover {
+	background-color: #e74246;
+}
+
+.service-btn:active {
+	background-color: #d7373b;
+	color: rgba(255, 255, 255, 0.3);
+}
+
+
+.app-btn {
+	display: inline-block;
+	background-color: #00ca74;
+	width: 160px;
+	height: 50px;
+	text-align: center;
+}
+
+.app-btn:hover {
+	background-color: #00bc6c;
+}
+
+.app-btn:active {
+	background-color: #00aa62;
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.presentations-btn {
+	display: inline-block;
+	background-color: #efc84a;
+	width: 160px;
+	height: 50px;
+	text-align: center;
+}
+
+.presentations-btn:hover {
+	background-color: #eab534;
+}
+
+.presentations-btn:active {
+	background-color: #e5a722;
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.about-us-features-title,
+.statistics-title {
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #000;
+}
+
+
+.statistics-numbers {
+	font-size: 45px;
+	line-height: 10px;
+	font-weight: 700;
+	color: #000;
+}
+
+.statistic-criteria {
+	line-height: 18px;
+}
+
+
+.trusted-logo {
+	opacity: 0.2;
+}
+
+.trusted-logo:hover {
+	opacity: 1;
+}
+
+.trusted-logo:active {
+	opacity: 0.2;
+}
+
+.social-link {
+	display: inline-block;
+	color: transparent;
+	background-color: #e1e1e1;
+}
+
+.social-link:hover {
+	background-color: #e74246;
+}
+
+.social-link:active {
+	background-color: #d7373b;
+	opacity: 0.3;
+}
+
+
+.vk {
+	background-image: url("../img/vk-icon.svg");
+	background-repeat: no-repeat;
+}
+
+.fb {
+	background-image: url("../img/fb-icon.svg");
+	background-repeat: no-repeat;
+}
+
+.inst {
+	background-image: url("../img/insta-icon.svg");
+	background-repeat: no-repeat;
+}
+
+.social-agitation-title {
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: 700;
+	color: #000;
+}
+
+.social-agitation-info {
+	line-height: 22px;
+}
+.contact-btn {
+	display: inline-block;
+	background-color: #fb565a;
+	width: 220px;
+	height: 50px;
+	text-align: center;
+}
+
